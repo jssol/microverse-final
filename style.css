@@ -1,16 +1,21 @@
-.main {
-    background-color: black;
-    width: 100px;
-    height: 100px;
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
 
-}
-.header {
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-}
-.footer {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"),
+    var(--color-darkblue-alpha);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    overflow-x: hidden;
 }
