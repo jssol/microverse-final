@@ -33,6 +33,7 @@ html {
     align-items: center;
     background: url("https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"),
     var(--color-darkblue-alpha);
+    color: var(--color-white);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,6 +43,12 @@ html {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    margin: 0;
+    padding: 0 auto;
+}
+
+#description {
+   margin-top: -0.5em;
 }
 
 .fields {
@@ -56,14 +63,15 @@ html {
   font-family: Lato;
 }
 
-.survey-form {
-  border-style: 2px solid rgba(24,30,60,0.8);
-  border-radius: 4px;
-  background-color: rgba(24,30,60,0.8);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 50px 40px 50px 40px;
-  margin-top:20px;
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50vw;
+    height: auto;
+    background: var(--color-darkblue-alpha);
+    border-radius: 0.3em;
+    padding: 2em 2em;
+    color: var(--color-white);
 }
