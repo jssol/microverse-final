@@ -44,24 +44,6 @@
     
     <!-- Radio buttons -->
     
-    <label for="feature">
-      What is your favorite feature of freeCodeCamp?<br>
-      <select class="fields" name="feature" id="feature">
-        <option disabled selected value>Select an option</option>
-        <option value="challenges">Challenges</option>
-        <option value="projects">Projects</option>
-        <option value="community">Community</option>
-        <option value="opensource">Open source</option>
-        <option value="other">Other</option>
-      </select>
-    </label>
-    
-    <!-- Checkboxes -->
-  
-  <!--End of where all changes were made -->
-  </form>
-
-  <div id= "survey-form">
     <p>would you recommend freeCodeCamp to a friend?</p>
     <label>
       <input name = "user-recommend"
@@ -86,9 +68,21 @@
       class= "input-radio"/>
       not-sure
     </label>
-  </div>
-
-  <div id="survey-form">
+    
+    <label for="feature">
+      What is your favorite feature of freeCodeCamp?<br>
+      <select class="fields" name="feature" id="feature">
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="opensource">Open source</option>
+        <option value="other">Other</option>
+      </select>
+    </label>
+    
+    <!-- Checkboxes -->
+    
     <p>
       What would you like to see improved?
       <span class="clue">(check all that apply)
@@ -130,13 +124,15 @@
 
         <label>
          <input name="prefer" value="additional-courses" type="checkbox" class="input-check-box"/>Additional-courses </label>
-        </div>
-
-  <div id="survey-form">
-   <p>Any comments or suggestions</p>
+         
+  <!-- Text area section -->
+  
+  <p>Any comments or suggestions</p>
    <textarea id="comments" class="input-textarea" name="comment"
              placeholder="Enter your comment here..."></textarea>
-  </div>
   
+  <!--End of where all changes were made -->
+  </form>
+
 <script  src="js/index.js"></script>
 </body>
