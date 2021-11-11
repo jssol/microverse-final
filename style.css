@@ -83,3 +83,30 @@ select {
     padding: 2em 2em;
     color: var(--color-white);
 }
+
+#submit {
+  background-color: var(--color-green);
+  color: white;
+  height: 2.5rem;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+textarea {
+  height: 6rem;
+  margin: 10px 0px 10px 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: Lato;
+}
+
+fieldset {
+  border-style: none;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 550;
+}
