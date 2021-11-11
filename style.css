@@ -1,0 +1,16 @@
+.main {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+
+}
+.header {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.footer {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
